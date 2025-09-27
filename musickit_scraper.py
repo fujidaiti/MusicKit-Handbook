@@ -33,7 +33,7 @@ class MusicKitDocScraper:
     """Scraper for Apple MusicKit documentation."""
 
     def __init__(self, base_url: str = "https://developer.apple.com/documentation/musickit",
-                 output_dir: str = "musickit_docs"):
+                 output_dir: str = "raw_docs"):
         self.base_url = base_url
         self.base_domain = "developer.apple.com"
         self.output_dir = Path(output_dir)

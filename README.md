@@ -40,7 +40,7 @@ You can customize the scraper by modifying the initialization parameters in the 
 ```python
 scraper = MusicKitDocScraper(
     base_url="https://developer.apple.com/documentation/musickit",
-    output_dir="musickit_docs"
+    output_dir="raw_docs"
 )
 ```
 
@@ -49,7 +49,7 @@ scraper = MusicKitDocScraper(
 The scraper creates the following directory structure:
 
 ```
-musickit_docs/
+raw_docs/
 ├── README.md                 # Index of all scraped pages
 ├── index.md                  # Main MusicKit documentation page
 ├── musickit_scraper.log      # Detailed scraping log
