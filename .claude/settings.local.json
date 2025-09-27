@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(source:*)",
+      "Bash(pip install:*)",
+      "Bash(python:*)",
+      "Bash(pip uninstall:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(for item in album artist song musicvideo playlist station radioshow curator recordlabel genre track)",
+      "Bash(do echo \"=== $item ===\")",
+      "Bash(ls:*)",
+      "Bash(done)",
+      "Bash(mkdir:*)",
+      "Bash(while read dir)",
+      "Bash(do if [ \"$dir\" != \"/Users/fujidaiti/Dev/clonemusickitdoc/musickit_docs\" ])",
+      "Bash(fi)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
